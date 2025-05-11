@@ -1,0 +1,2596 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    margin: auto;
+}
+/***** Top Div Coding Start *****/
+.icondiv
+{
+    width: 1200px;
+    height: 50px;
+    align-items: center;
+    background-color: rgb(10, 112, 100) ; 
+}
+.p1
+{
+    color: white;
+    padding-left: 50px;
+    padding-top: 15px;
+    float: left;
+}
+.p1:hover
+{
+    color: black;
+    cursor: cell;
+}
+.p1:active
+{
+    color: rgb(133, 132, 132);
+    cursor: progress;
+}
+.phicon
+{
+    color: white;
+    padding-top: 15px;
+    position: relative;
+    left: 50px;
+    float: left;
+}
+.p2
+{
+    color: white;
+    position: inherit;
+    padding-left: 60px;
+    padding-top: 15px;
+    float: left;
+    transition: 0.5s;
+}
+.p2:hover
+{
+    cursor: pointer;
+    color: goldenrod;
+}
+.p2:active
+{
+    color: grey;
+    cursor: grab;
+}
+.icons
+{
+    width: 200px;
+    height: 40px;
+    color: white;
+    padding-top: 7px;
+    margin-left: 900px;
+}
+#one{
+    margin: 10px;
+}
+#one:hover
+{
+    color: aqua;
+    transition: 0.5s;
+}
+#one:active
+{
+    color: rgb(133, 132, 132);
+    transform: 0.1s;
+    cursor: progress;
+}
+#two{
+    margin: 10px;
+}
+#two:hover
+{
+    color: rgb(49, 49, 203);
+    transition: 0.5s; 
+}
+#two:active
+{
+    color: rgb(133, 132, 132);
+    transition: 0.1s;
+    cursor: progress;
+}
+#three{
+    margin: 10px;
+}
+#three:hover
+{
+    color: rgb(147, 32, 126);
+    transition: 0.5s; 
+}
+#three:active
+{
+    color: rgb(133, 132, 132);
+    transition: 0.1s;
+    cursor: progress;
+}
+#four{
+    margin: 10px;
+}
+#four:hover
+{
+    color: rgb(13, 13, 189);
+    transition: 0.5s; 
+}
+#four:active
+{
+    color: rgb(133, 132, 132);
+    transition: 0.1s;
+    cursor: progress;
+}
+/*********** Top Div Coading End ***********/
+
+/*********** Menu Div Coading Start ***********/
+.munediv
+{
+    width: 1200px;
+    height: 530px;
+    background-color: rgb(17, 134, 121) ;
+}
+h2{
+    color: white;
+    padding-left: 50px;
+    padding-top: 25px;
+    font-family: Eras Bold ITC;
+}
+h2:hover
+{
+    color: black;
+    transition: 0.5s;
+    cursor: cell;
+}
+h2:active
+{
+    color: rgb(200, 194, 194);
+    cursor: progress;
+    transition: 0.1s;
+}
+.menu
+{
+    width: 650px;
+    height: 500px;
+    /* background-color: aqua; */
+   position: relative;
+   left: 250px;
+   bottom: 30px;
+}
+.menu ul li
+{
+    list-style: none;
+    color: white;
+    float: left;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.menu ul li:hover
+{
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid red;
+    transition: 0.3s;
+}
+.menu ul li:active
+{
+    color: rgb(183, 182, 182);
+}
+.content
+{
+    width: 380px;
+    height: 300px;
+   align-items: center;
+   position: relative;
+   bottom: 400px;
+   right: 230px;
+   color: white;
+   background: transparent;
+}
+.content h1
+{
+    font-family: Bahnschrift;
+    font-size: 40px;
+}
+.content h1:hover
+{
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.content h1:active
+{
+    color: rgb(200, 194, 194);
+    transition: 0.1s;
+}
+.content p
+{
+    padding-top: 10px;
+}
+.content p:hover
+{
+    cursor: pointer;
+    color: black;
+}
+.contbtn
+{
+    width: 150px;
+    height: 45px;
+    border-style: none;
+    background-color: rgb(38, 186, 169) ;
+    border: 1px solid white;
+    border-radius: 50px;  
+    color: white;
+    margin-top: 30px;
+}
+.fa-circle-play
+{
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: 190px;
+    position: relative;
+    bottom: 35px;
+    float: left;
+}
+.btntext
+{
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+}
+.btntext:hover
+{
+    color: black;
+    transition: 0.5s;
+}
+.box1
+{
+    width: 200px;
+    height: 190px;
+    background-color: rgb(38, 186, 169);
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 425px;
+    left: 175px;
+    float: left;
+    box-shadow: 1px 1px 10px 5px  rgb(11, 73, 66);
+}
+.box1i
+{
+    font-size: 25px;
+    color: white;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.box1i:hover
+{
+    color: gold;
+    transition: 0.8s;
+}
+.box1t
+{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: Arial Black;
+    cursor: pointer;
+}
+.box1t:hover
+{
+    color: rgb(0, 0, 0);
+}
+.box1t:active
+{
+    color: rgb(178, 176, 176);
+}
+.box2
+{
+    width: 200px;
+    height: 190px;
+    background-color: rgb(38, 186, 169);
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 425px;
+    left: 190px;
+    float: left;
+    box-shadow: 1px 1px 10px 5px  rgb(11, 73, 66);
+}
+.box2i
+{
+    font-size: 35px;
+    color: white;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.box2i:hover
+{
+    color: gold;
+    transition: 0.8s;
+}
+.box2t
+{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: Arial Black;
+    cursor: pointer;
+}
+.box2t:hover
+{
+    color: rgb(0, 0, 0);
+}
+.box2t:active
+{
+    color: rgb(178, 176, 176);
+}
+.box3
+{
+    width: 200px;
+    height: 190px;
+    background-color: rgb(38, 186, 169);
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 425px;
+    left: 205px;
+    float: left;
+    box-shadow: 1px 1px 10px 5px  rgb(11, 73, 66);
+}
+.box3i
+{
+    font-size: 35px;
+    color: white;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.box3i:hover
+{
+    color: gold;
+    transition: 0.8s;
+}
+.box3t
+{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: Arial Black;
+    cursor: pointer;
+}
+.box3t:hover
+{
+    color: rgb(0, 0, 0);
+}
+.box3t:active
+{
+    color: rgb(178, 176, 176);
+}
+.box4
+{
+    width: 200px;
+    height: 190px;
+    background-color: rgb(38, 186, 169);
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 425px;
+    left: 220px;
+    float: left;
+    box-shadow: 1px 1px 10px 5px  rgb(11, 73, 66);
+}
+.box4i
+{
+    font-size: 35px;
+    color: white;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.box4i:hover
+{
+    color: gold;
+    transition: 0.8s;
+}
+.box4t
+{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: Arial Black;
+    cursor: pointer;
+}
+.box4t:hover
+{
+    color: rgb(0, 0, 0);
+}
+.box4t:active
+{
+    color: rgb(178, 176, 176);
+}
+/*********** MENU Div Coading End ***********/
+
+/*********** About us Div Coading End ***********/
+
+.aboutus
+{
+    width: 1200px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.us
+{
+    width: 85px;
+    height: 20px;
+    /* padding-left: 150px; */
+    padding-top: 150px;
+    /* font-size: 25px; */
+    /* position: relative;
+    right: 90px; */
+    font-family: Arial;
+}
+.us:hover
+{
+    color: rgb(14, 130, 117);
+    cursor: cell;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.us:active
+{
+    color: rgb(178, 176, 176);
+    transition: 0.2s;
+}
+.aboutp
+{
+    margin-left: 200px;
+    font-family: Calibri;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+}
+.aboutp:hover
+{
+    color:rgb(167, 17, 17);
+    cursor: pointer;
+}
+.ptoph
+{
+   padding-top: 50px;
+   position: relative;
+   left: 150px;
+}
+.ptoph:hover
+{
+    cursor:move;
+    color: rgb(14, 130, 117);
+    transition: 0.5s;
+}
+.ptoph:active
+{
+    color:black;
+    transition: 0.1s;
+}
+.aboutp1
+{
+    cursor: progress;
+    width: 350px;
+    height: 250px;
+    background-color:aqua;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 15px;
+    background-image: url(pics/picture\ 1.png);
+}
+.pic1tcont
+{
+    width: 380px;
+    height: 70px;
+    /* background-color: white; */
+    margin-top: 20px;
+    margin-left: 140px;
+    cursor: alias;
+}
+.pic1tcont:hover
+{
+    color: rgb(14, 130, 117);
+}
+.pic1tcont:active
+{
+    color: rgb(178, 176, 176);
+}
+.pic1bcont
+{
+    width: 390px;
+    height: 70px;
+    /* background-color: white; */
+    margin-top: 20px;
+    margin-left: 140px;
+    cursor:alias;
+}
+.pic1bcont:hover
+{
+    color: rgb(14, 130, 117);
+}
+.pic1bcont:active
+{
+    color: rgb(178, 176, 176);
+}
+.pic2cont p
+{
+    width: 445px;
+    height: 40px;
+    /* background-color: aqua; */
+    margin-right: 100px;
+    position: relative;
+    bottom: 440px;
+}
+.pic2cont p:hover
+{
+    color: rgb(14, 130, 117);
+    cursor: alias;
+}
+.pic2cont p:active
+{
+    color: rgb(178, 176, 176);
+}
+.fa-circle-check
+{
+    color: rgb(24, 107, 97);
+    margin-left: 655px;
+    margin-top: 6px;
+    position: relative;
+    bottom: 430px;
+    cursor: pointer;
+    float: left;
+}
+.icon1p
+{
+  margin-top: 15px;
+  position: relative;
+  left: 15px;
+}
+.maincont
+{
+    margin-top: 15px;
+    position: relative;
+    left: 20px;
+}
+.aboutpic2
+{
+    cursor: progress;
+    width: 350px;
+    height: 250px;
+    background-color:aqua;
+    position: relative;
+    bottom: 370px;
+    left: 280px;
+    border-radius: 15px;
+    background-image: url(pics/Untitled-2.png);
+}
+/*********** About us Div Coading End ***********/
+
+/*********** Logo Div Coading Start ***********/
+.logo
+{
+    width: 1200px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+}
+.logo1n
+{
+    padding-top: 5px;
+    font-family: Arial;
+    color: black;
+    position: relative;
+    top: 3px;
+    right:500px;
+    float: left; 
+}
+.logo1n:hover
+{
+    cursor:move;
+}
+.logo1n:active
+{
+    color: rgb(178, 176, 176);
+}
+.logo2n
+{
+    padding-top: 8px;
+    font-weight: 15px;
+    color: rgb(18, 124, 50);
+    position: relative;
+    right:440px;
+    float: left;
+}
+.logo2n p {
+    color: black;
+    float: left;
+}
+.logo2n p:active
+{
+    color: rgb(178, 176, 176);
+}
+.logo2n:hover
+{
+    cursor:move;
+}
+.logo2n:active
+{
+    color: rgb(178, 176, 176);
+}
+.logo3n
+{
+    padding-top: 5px;
+    font-family: Blackadder ITC;
+    color: red;
+    position: relative;
+    right:440px;
+    float: left;   
+}
+.logo3n:hover
+{
+    cursor:move;
+    color: red;
+}
+.logo3n:active
+{
+    color: rgb(178, 176, 176);
+}
+.logo4img
+{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 70px;
+    right: 55px;
+}
+.logo4n
+{
+    padding-top: 10px;
+    font-family: Arial;
+    color: black;
+    position: relative;
+    right:350px;
+    float: left; 
+}
+.logo4n:hover
+{
+    cursor:move;
+}
+.logo4n:active
+{
+    color: rgb(178, 176, 176);
+}
+.logo5img
+{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 70px;
+    left: 45px;
+}
+.logo5n
+{
+    padding-top: 10px;
+    font-family: Arial;
+    color: black;
+    position: relative;
+    right:280px;
+    float: left; 
+}
+.logo5n:hover
+{
+    cursor:move;
+}
+.logo5n:active
+{
+    color: rgb(178, 176, 176);
+}
+.logo6n
+{
+    padding-top: 15px;
+    font-family: Arial;
+    color: black;
+    position: relative;
+    right:230px;
+    float: left; 
+}
+.logo6n:hover
+{
+    cursor:move;
+}
+.logo6n:active
+{
+    color: rgb(178, 176, 176);
+}
+.logopic
+{
+    width: 400px;
+    height: 300px;
+    /* background-color: aquamarine; */
+    margin-top: 80px;
+    margin-left: 120px;
+    background-image: url(pics/logo\ pic.png);
+    cursor: progress;
+    float: left;
+}
+.ltopcont
+{
+    position: relative;
+    left: 35px;
+    top: 100px;
+    float: left;
+}
+.ltopcont h2
+{
+    color: rgb(14, 130, 117);
+    font-family: Arial;
+    font-size: 35px;
+    float: left;
+}
+.ltopcont p
+{
+    width: 450px;
+    margin-top: 35px;
+    position: relative;
+    left: 25px;
+}
+.ltopcont p:hover
+{
+    color:rgb(14, 130, 117);
+    cursor: alias;
+}
+.ltopcont p:active
+{
+    color: rgb(178, 176, 176);
+}
+/*********** Logo Div Coading End ***********/
+
+/*********** Video Div coading Start ***********/
+.videodiv
+{
+    width: 1200px;
+    height: 570px;
+    background-color: rgb(255, 255, 255);
+}
+.video
+{
+    width: 950px;
+    height: 450px;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    background-image: url(pics/video\ pic.png);
+    opacity: 0.8;
+}
+#playbtn
+{
+    color: rgb(14, 130, 117);
+    position: relative;
+    left: 350px;
+    bottom: 350px;
+    box-shadow: 1px 1px 20px 10px rgb(14, 130, 117);
+    border-radius: 50%;
+    cursor:progress;
+}
+#playbtn:hover
+{
+    color: black;
+    transition: 0.5s;
+}
+#playbtn:active
+{
+    color: rgb(178, 176, 176);
+    transition: 0.1s;
+}
+.vidh
+{
+    position: relative;
+    left: 260px;
+    bottom: 290px;
+}
+.vidh:hover
+{
+    cursor: progress;
+}
+#mainh
+{
+    color: black;
+    font-family: Arial;
+    transition: 0.4s;
+}
+#mainh:hover
+{
+    color: rgb(14, 130, 117);
+    transition: 0.5s;
+}
+#mainh:active
+{
+    color: white;
+}
+.vidcont
+{
+    color: white;
+    font-size: 18px;
+    width: 600px;
+    height: 50px;
+    /* background-color: aqua; */
+    position: relative;
+    bottom: 270px;
+}
+.vidcont:hover
+{
+    color: rgb(14, 130, 117);
+    cursor: alias;
+}
+.vidcont:active
+{
+    color: black;
+}
+.lastbtn
+{
+font-weight: bold;
+color: white;
+width: 140px;
+height: 35px;
+border-style: none;
+background: transparent;
+font-size: 15px;
+margin-left: 490px;
+position: relative;
+bottom: 250px;
+border: 3px solid white;
+border-radius: 30px;
+}
+.lastbtn:hover
+{
+    color: rgb(14, 130, 117);
+    border: 1px solid black;
+    cursor: progress;
+    transition: 0.5s;
+}
+.lastbtn:active
+{
+    color: rgb(201, 14, 14);
+    transition: 0.1s;
+}
+/*********** Video Div coading End ***********/
+
+/*********** Service Div coading Start ***********/
+.Services
+{
+    width: 1200px;
+    height: 800px;
+    background-color: rgb(247, 246, 246);
+}
+.serhed
+{
+    width: 205px;
+    height: 40px;
+    font-size: 35px;
+    /* background-color: aqua; */
+    align-items: center;
+    padding-top: 30px;
+    font-family: Arial;
+}
+.serhed:hover
+{
+    border-bottom: 2px solid rgb(14, 130, 117);
+    cursor: move;
+    color: rgb(14, 130, 117);
+    transition: 0.5s;
+}
+.serhed:active
+{
+    color: white;
+    cursor: grab;
+    transition: 0.1s;
+}
+.sercont
+{
+    margin-left: 270px;
+    margin-top: 20px;
+}
+.sermaindiv
+{
+    width: 1000px;
+    height: 300px;
+    /* background-color: aqua; */
+    margin-top: 20px;
+
+}
+.serdiv1
+{
+    width: 320px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    box-shadow: 1px 1px 10px 5px rgb(152, 150, 150);
+}
+
+#div1icon
+{
+    margin-top: 30px;
+    margin-left: 30px;
+    /* position: relative; */
+    font-size: 35px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 5px rgb(218, 214, 214);
+}
+.pic1h
+{
+    width: 270px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bolder;
+}
+.pic1h:hover
+{
+    border-bottom: 1px solid black;
+    cursor:grab;
+    color: rgb(14, 130, 117);
+    transition: 0.8s;
+}
+.pic1h:active
+{
+    color: rgb(255, 0, 0);
+    transition: 0.2s;
+}
+.pic1p
+{
+    width: 275px;
+    height: 80px;
+    /* background-color: aqua; */
+    margin-left: 17px;
+    margin-top: 25px;
+}
+.pic1p:hover
+{
+    color: rgb(14, 130, 117);
+    cursor:text;
+}
+.pic1p:active
+{
+    color: rgb(178, 176, 176);
+}
+#read
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(14, 130, 117);
+    font-size: 20px;
+    font-weight: bolder;
+    cursor:help;
+}
+#read:hover
+{
+    color: black;
+    transition: 0.5s;
+}
+#read:active
+{
+    color: rgb(178, 176, 176);
+    cursor: grab;
+    transition: 0.2s;
+}
+.serdiv2
+{
+    width: 320px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 20px;
+    box-shadow: 1px 1px 10px 5px rgb(152, 150, 150);
+}
+.serdiv3
+{
+    width: 320px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 20px;
+    box-shadow: 1px 1px 10px 5px rgb(152, 150, 150);
+}
+/*********** Service Div coading End ***********/
+
+/*********** Testimonials Div Start ***********/
+.Testimonial
+{
+    width: 1200px;
+    height: 580px;
+    background-color: rgb(255, 255, 255);
+}
+
+.testhead
+{
+    width: 205px;
+    height: 40px;
+    font-size: 35px;
+    /* background-color: aqua; */
+    padding-top: 30px;
+    font-family: Arial;
+    cursor: move;
+}
+.testhead:hover
+{
+    color: rgb(14, 130, 117);
+    transition: 0.3s;
+}
+.testhead:active
+{
+    color: rgb(178,176 , 176);
+    transition: 0.1s;
+}
+.testcont
+{
+    margin-left: 270px;
+    margin-top: 15px;
+}
+.testcont:hover
+{
+    color: rgb(14, 130, 117);
+}
+.testmaindiv
+{
+    width: 1050px;
+    height: 300px;
+    /* background-color: aqua; */
+    margin-top: 50px;
+}
+.testdiv1
+{
+    width: 320px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left:23px;
+    box-shadow: 1px 1px 10px 5px rgb(152, 150, 150);
+}
+.div1pic
+{
+    width: 70px;
+    height: 70px;
+    /* background-color: aqua; */
+    margin-right: 230px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-image: url(pics/sara\ wilsson.png);
+}
+.div1pic:hover
+{
+    cursor: progress;
+}
+.p1name
+{
+    margin-left: 60px;
+    font-family: Arial;
+    color: black;
+    position: relative;
+    bottom: 80px;
+}
+.p1name:hover
+{
+    color: rgb(14, 130, 117);
+    cursor:default;
+    transition: 0.5s;
+}
+.p1name:active
+{
+    color: rgb(252, 0, 0);
+    transition: 0.2s;
+}
+.proffesion1
+{
+    margin-left: 110px;
+    position: relative;
+    bottom: 80px;
+    cursor: move;
+}
+.proffesion1:hover
+{
+    color: rgb(14, 130, 117);
+}
+.stars1
+{
+    margin-left: 110px;
+    color: yellow;
+    position: relative;
+    bottom: 70px;
+}
+.stars1:hover
+{
+    color: rgb(14, 130, 117);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.stars1:active
+{
+    color: red;
+    transition: 0.1s;
+}
+.cuotes1
+{
+    font-size: 40px;
+    color: rgb(14, 130, 117);
+    cursor: default;
+    position: relative;
+    bottom: 50px;
+}
+.cuotes1:hover
+{
+    color: red;
+}
+.cuotes1:active
+{
+    color: black;
+}
+.pic1cont
+{
+    width: 250px;
+    color: black;
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;
+}
+.pic1cont:hover
+{
+    color: rgb(14, 130, 117);
+}
+.pic1cont:active
+{
+    color: red;
+}
+.cuotes12
+{
+    font-size: 40px;
+    color: rgb(14, 130, 117);
+    position: relative;
+    bottom: 85px;
+    left: 130px;
+    cursor:default;
+} 
+.cuotes12:hover
+{
+    color:red;
+}
+.cuotes12:active
+{
+    color: black;
+}
+.testdiv2
+{
+    width: 320px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 25px;
+    box-shadow: 1px 1px 10px 5px rgb(152, 150, 150);
+}
+.div2pic
+{
+    width: 70px;
+    height: 70px;
+    /* background-color: aqua; */
+    margin-right: 230px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-image: url(pics/Jena\ Karlis.png);
+}
+.div2pic:hover
+{
+    cursor: progress;
+}
+.testdiv3
+{
+    width: 320px;
+    height: 300px;
+    background-color:white;
+    float: left;
+    margin-left: 30px;
+    box-shadow: 1px 1px 10px 5px rgb(152, 150, 150);
+}
+.div3pic
+{
+    width: 70px;
+    height: 70px;
+    /* background-color: aqua; */
+    margin-right: 230px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-image: url(pics/Mat\ Brandon.png);
+}
+.div3pic:hover
+{
+    cursor: progress;
+}
+/*********** Testimonials Div Ends ***********/
+
+/*********** Portfolio Div Start ***********/
+.Portfilio
+{
+    width: 1200px;
+    height: 1800px;
+    background-color:  rgb(245, 245, 245);
+    margin-top: 100px;
+    text-align: center;
+}
+.porth
+{
+    padding-top: 30px;
+    font-size: 35px;
+    font-family:Arial;
+    cursor: cell;
+}
+.portcont
+{
+    padding-top: 15px;
+}
+.portbtns ul
+{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 40px;
+}
+.portbtns ul li
+{
+    margin-left: 30px;
+}
+.portpics
+{
+    width: 1000px;
+    height: 350px;
+    background-color:  rgb(245, 245, 245);
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.picture1
+{
+    width: 300px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(pics/App\ 1.png);
+}
+.cont1
+{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    margin-top: 250px;
+    
+}
+#ph
+{
+    margin-right: 200px;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 25px;
+}
+#picp
+{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.picture2
+{
+    width: 300px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(pics/prod1.png);
+}
+.picture3
+{
+    width: 300px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(pics/brand1.png);
+}
+.picture4
+{
+    width: 300px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(pics/book1.png);
+}
+
+.picture5
+{
+    width: 300px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(pics/App2.png);
+}
+.picture6
+{
+    width: 300px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(pics/prod2.png);
+}
+.picture7
+{
+    width: 300px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(pics/bradn3.png);
+}
+.picture8
+{
+    width: 300px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(pics/book2.png);
+}
+.picture9
+{
+    width: 300px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(pics/App3.png);
+}
+.picture10
+{
+    width: 300px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(pics/prod4.png);
+}
+.picture11
+{
+    width: 300px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(pics/brand4.png);
+}
+.picture12
+{
+    width: 300px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(pics/book3.png);
+}
+/*********** Portfolio Div Ends ***********/
+
+/*********** OurTeam Div Start ***********/
+.ourteam
+{
+    width: 1200px;
+    height: 620px;
+    background-color: rgb(249, 249, 249);
+    text-align: center;
+    color: white;
+}
+.teamh
+{
+    color: black;
+    padding-top: 40px;
+    font-family: Arial ;
+    cursor: move;
+}
+.teamh h1:hover
+{
+    color: rgb(14, 130, 117);
+    transition: 0.8s;  
+}
+.teamh h1:active
+{
+   color: red;
+   transition: 0.2s;
+}
+#tcont
+{
+    color: black;
+    padding-top: 20px;
+    cursor: alias;
+}
+.teampics
+{
+    width: 1000px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.teampic1
+{
+    width: 235px;
+    height: 400px;
+    background-color: white;
+    float: left;
+    margin-top: 0px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px rgb(214, 213, 213);
+}
+#man
+{
+    border-radius: 10px;
+}
+#teamn
+{
+    color: black;
+    font-family: Bahnschrift;
+    position: relative;
+    right:35px ;
+    cursor: move;
+    transition: 0.5s;
+}
+#teamn:hover
+{
+    color: rgb(14, 130, 117);
+}
+#teamn:active
+{
+    color: rgb(179, 176, 176);
+    transition: 0.1s;
+}
+#mencont
+{
+    color: black;
+   font-family: calibri;
+   position:relative;
+   right: 10px;
+}
+#mencont:hover
+{
+    color: rgb(14, 130, 117);
+}
+#mencont:active
+{
+    color: red;
+    transition: 0.2s;
+}
+.ticon-one
+{
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    right: 10px;
+    border: 2px solid rgb(177, 172, 172);
+}
+#ticon1
+{
+    margin-top: 12px;
+    width: 50px;
+    height: 100px;
+    position: relative;
+    right: 4px;
+    color: grey;
+    transition: 0.8s;
+}
+#ticon1:hover
+{
+    cursor:progress;
+    color: aqua;
+    transition: 0.5s;
+}
+#ticon1:active
+{
+    color:white;
+    cursor: wait;
+    transition: 0.2s;
+}
+.ticon-two
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    right: 33px;
+    bottom: 45px;
+    border: 2px solid rgb(177, 172, 172);
+}
+#ticon2
+{
+    margin-top: 12px;
+    width: 50px;
+    height: 100px;
+    position: relative;
+    right: 4px;
+    color: grey;
+    transition: 0.8s;
+}
+#ticon2:hover
+{
+    cursor:progress;
+    color: rgb(27, 27, 152);
+    transition: 0.5s;
+}
+#ticon2:active
+{
+    color: rgb(255, 255, 255);
+    cursor: wait;
+    transition: 0.2s;
+}
+.ticon-three
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 28px;
+    bottom: 90px;
+    border: 2px solid rgb(177, 172, 172);
+    
+}
+#ticon3
+{
+    margin-top: 12px;
+    width: 50px;
+    height: 100px;
+    position: relative;
+    right: 4px;
+    color: grey;
+    transition: 0.8s;
+}
+#ticon3:hover
+{
+    cursor:cell;
+    color: rgb(155, 7, 99);
+    transition: 0.5s;
+}
+#ticon3:active
+{
+    color: rgb(255, 255, 255);
+    cursor: wait;
+    transition: 0.2s;
+}
+.ticon-four
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85px;
+    bottom: 134px;
+    border: 2px solid rgb(177, 172, 172);
+}
+#ticon4
+{
+    margin-top: 12px;
+    width: 50px;
+    height: 100px;
+    position: relative;
+    right: 4px;
+    color: grey;
+    transition: 0.8s;
+}
+#ticon4:hover
+{
+    cursor:cell;
+    color: blue;
+    transition: 0.5s;
+}
+#ticon4:active
+{
+    color: rgb(255, 255, 255);
+    cursor: wait;
+    transition: 0.2s;
+}
+/*********** OurTeam Div Ends ***********/
+
+/*********** Pricing Div Start ***********/
+.pricing
+{
+    width: 1200px;
+    height: 850px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    align-items: center;
+}
+.priceh
+{
+    padding-top: 50px;
+    font-family:Arial ;
+    cursor: move;
+    width: 100px;
+}
+.priceh h1:hover
+{
+     color: rgb(14, 130, 117);
+     transition: 0.5s;
+     border-bottom: 4px solid black;
+     border-color: rgb(14, 130, 117);
+}
+.priceh h1:active
+{
+     color: rgb(255, 0, 0);
+     cursor: progress;
+     transition: 0.2s;
+}
+.pricep
+{
+    margin-top: 15px;
+    cursor: pointer;
+}
+.pricep:hover
+{
+    color: rgb(14, 130, 117);
+    transition: 0.3s;
+}
+.pricep:active
+{
+    color:rgb(192, 192, 192);
+    transition: 0.2s;
+}
+.priceplan
+{
+    width: 1000px;
+    height: 550px;
+    background-color: rgb(235, 235, 235);
+    margin-top: 80px;
+    display: flex;
+}
+.plan1
+{
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 10px rgb(174, 173, 173);
+}
+.plan1:hover
+{
+    border: 5px solid rgb(14, 130, 117);
+}
+.plan2
+{
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 10px rgb(174, 173, 173);
+}
+.plan2:hover
+{
+    border: 5px solid rgb(14, 130, 117);
+}
+.plan3
+{
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 10px rgb(174, 173, 173);
+}
+.plan3:hover
+{
+    border: 5px solid rgb(14, 130, 117);
+}
+.pname
+{
+    font-size: 25px;
+    margin-top: 35px;
+    font-weight: 600;
+    font-family: Arial;
+    cursor: cell;
+}
+.pname:hover
+{
+    color: rgb(14, 130, 117);
+    transition: 0.5s;
+}
+.pname:active
+{
+    color: rgb(255, 0, 0);
+    transition: 0.1s;
+}
+.pricepic
+{
+    width: 85px;
+    height: 85px;
+    background-color: rgb(118, 247, 249);
+    border-radius: 50%;
+    margin-top: 15px;
+    cursor: wait;
+}
+.planpri 
+{
+    font-size: 40px;
+    color: #eb0000;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.planpri:hover
+{
+    color: rgb(14, 130, 117);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.planpri:active
+{
+    color: rgb(177, 179, 178);
+    cursor: progress;
+    transition: 0.1s;
+}
+.planpri span
+{
+    color: black;
+    font-size: 20px;
+}
+.planpri span:hover
+{
+    color: rgb(14, 130, 117);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.planpri span:active
+{
+    color: rgb(177, 179, 178);
+    cursor: progress;
+    transition: 0.1s;
+}
+#pri-i
+{
+    float: left;
+    color: rgb(14, 130, 117);
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#pri-i:active
+{
+    color: red;
+}
+#pri-cont
+{
+    margin-right: 25px;
+    font-family: calibri;
+    font-weight: bold;
+    cursor:copy;
+}
+#pri-cont:hover
+{
+    color: rgb(14, 130, 117);
+    transition: 0.4s;
+}
+#pri-cont:active
+{
+    color: rgb(201, 196, 196);
+    transition: 0.1s;
+}
+#price-btn
+{
+    width: 130px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: calibri;
+    border: none;
+     border: 2px solid rgb(218, 214, 214);
+    border-radius: 35px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: rgb(14, 130, 117);
+    cursor:pointer;
+}
+#price-btn:hover
+{
+    color: red;
+    transition: 0.5s;
+}
+#price-btn:active
+{
+    color: rgb(207, 201, 201);
+    cursor: progress;
+    transition: 0.1s;
+}
+/*********** Question Div Start ***********/
+.questions
+{
+    width: 1200px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+}
+#ques
+{
+    color: black;
+    font-size: xx-large;
+    margin-right:650px ;
+    padding-top: 80px;
+    cursor:-webkit-grab;
+}
+#ques:hover
+{
+    color: rgb(14, 130, 117);
+    transition: 0.3s;
+}
+#ques:active
+{
+    color: rgb(205, 205, 205);
+    transition: 0.1s;
+}
+#qno-1
+{
+    margin-right:615px ;
+    padding-top: 10px;
+    font-family: Swis721 Blk BT;
+    cursor:move;
+}
+#qno-1:hover
+{
+    color: rgb(14, 130, 117);
+    transform: 0.5s;
+}
+#qno-1:active
+{
+    color:red;
+    cursor: progress;
+    transform: 0.1s;
+}
+#quecont
+{
+    width: 300px;
+    position: relative;
+    right: 300px;
+    cursor:help;
+}
+#quecont:hover
+{
+    color: rgb(14, 130, 117);
+}
+#quecont:active
+{
+    color:rgb(199, 195, 195);
+    transform: 0.1s;
+}
+#sel
+{
+    width: 500px;
+    height: 55px;
+}
+#queation-1
+{
+    width: 500px;
+    height: 40px;
+    position: relative;
+    left: 230px;
+    bottom: 200px;
+}
+#queation-1
+{
+    width: 520px;
+    height: 50px;
+    position: relative;
+    left: 470px;
+    bottom: 200px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 3px rgb(213, 213, 213);
+    cursor: cell;
+}
+#queation-1:hover
+{
+    border: 3px solid rgb(14, 130, 117);
+    background-color: rgb(235, 235, 235);
+}
+#queation-2
+{
+    width: 520px;
+    height: 50px;
+    position: relative;
+    right: 55px;
+    border: none;
+    bottom: 130px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 3px rgb(213, 213, 213);
+}
+#queation-2:hover
+{
+    border: 3px solid rgb(14, 130, 117);
+    background-color: rgb(235, 235, 235);
+}
+#queation-3
+{
+    width: 520px;
+    height: 50px;
+    position: relative;
+    left: 470px;
+    bottom: 110px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 3px rgb(213, 213, 213);
+}
+#queation-3:hover
+{
+    border: 3px solid rgb(14, 130, 117);
+    background-color: rgb(235, 235, 235);
+}
+#queation-4
+{
+    width: 520px;
+    height: 50px;
+    position: relative;
+    right: 55px;
+    bottom: 40px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 3px rgb(213, 213, 213);
+}
+#queation-4:hover
+{
+    border: 3px solid rgb(14, 130, 117);
+    background-color: rgb(235, 235, 235);
+}
+#queation-5
+{
+    width: 520px;
+    height: 50px;
+    position: relative;
+    left: 205px;
+    bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 3px rgb(213, 213, 213);
+}
+#queation-5:hover
+{
+    border: 3px solid rgb(14, 130, 117);
+    background-color: rgb(235, 235, 235);
+}
+/*********** Question Div Ends ***********/
+
+/*********** Blogs Div start ***********/
+.blogs
+{
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(229, 228, 228);
+    text-align: center;
+    align-items: center;
+}
+#bhead
+{
+    padding-top: 40px;
+    font-family: calibri;
+    cursor: move;
+}
+#bhead:hover
+{
+    color: rgb(14, 130, 117);
+    transition: 0.8s;
+}
+#bhead:active
+{
+    color: rgb(216, 216, 216);
+    transition: 0.2s;
+}
+#bcont
+{
+    margin-top: 20px;
+}
+#bcont:hover
+{
+    color: rgb(14, 130, 117);
+    transition: 0.3s;
+    cursor:pointer;
+}
+#bcont:active
+{
+    color: rgb(216, 216, 216);
+    transition: 0.1s;
+}
+.blogpic
+{
+    width: 1000px;
+    height: 500px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bpic1
+{
+width: 300px;
+height: 500px;
+background-color:blue ;
+float: left;
+margin-top: 0px;
+cursor: wait;
+background-image: url(pics/blogpic1.png);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.bpcont
+{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    margin-top: 250px;
+}
+#picpa
+{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: calibri;
+}
+#bheading
+{
+    float: left;
+    width: 250px;
+    margin-top: 30px;
+    position: relative;
+    font-family: Arial;
+}
+#bheading:hover
+{
+    color: rgb(14, 130, 117);
+    transition: 0.6s;
+    cursor: pointer;
+}
+#bheading:active
+{
+    color: red;
+    transition: 0.2s;
+    cursor: grab;
+}
+.bottompic-1
+{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+    border-radius: 50%;
+    right: 90px;
+    background-image: url(pics/Doe.png);
+}
+#bottompicn
+{
+    margin-top: 110px;
+    font-family: Arial;
+    font-weight: bold;
+}
+#bottompicn:hover
+{
+    color: rgb(14, 130, 117);
+    cursor: cell;
+}
+#bottompicn:active
+{
+    color: red;
+}
+#d-o-b
+{
+    margin-top: 5px;
+    font-family: calibri;
+}
+.bpic2
+{
+width: 300px;
+height: 500px;
+background-color:blue ;
+float: left;
+margin-top: 0px;
+cursor: wait;
+background-image: url(pics/blogpic2.png);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.bottompic-2
+{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+    border-radius: 50%;
+    right: 90px;
+    background-image: url(pics/alisa.png);
+}
+.bpic3
+{
+width: 300px;
+height: 500px;
+background-color:blue ;
+float: left;
+cursor: wait;
+margin-top: 0px;
+background-image: url(pics/blogpic3.png);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.bottompic-3
+{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+    border-radius: 50%;
+    right: 90px;
+    background-image: url(pics/Dower.png);
+}
+/*********** Blogs Div Ends ***********/
+
+/*********** Contact Div start ***********/
+
+.contact-us
+{
+    width: 1200px;
+    height: 750px;
+    background-color: grey;
+    text-align: center;
+    align-items: center;
+}
+.contacth
+{
+    padding-top: 50px;
+    font-family: Arial;
+    cursor: move;
+}
+.contacth:hover
+{
+    color: rgb(14, 130, 117);
+    transition: 0.6s;
+}
+.contacth:active
+{
+    color: red;
+    transition: 0.1s;
+    cursor: cell;
+}
+#cop
+{
+    margin-top: 10px;
+}
+#cop:hover
+{
+    color: rgb(14, 130, 117);
+    cursor: cell;
+    transition: 0.3s;
+}
+#cop:active
+{
+    color: red;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.contact
+{
+    width: 1000px;
+    height: 500px;
+    background-color: blueviolet;
+    margin-top: 30px;
+}
+.location
+{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(13, 88, 71);
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.contlist
+{
+    width: 650px;
+    height: 500px;
+    background-color: white;
+    margin-left:350px ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.cbox-1
+{
+    width:300px ;
+    height: 100px;
+    background-color: rgb(30, 112, 94);
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+}
+#iii
+{
+    color: rgb(229, 235, 233);
+    margin-top: 30px;
+    margin-right: 220px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 25px 15px rgb(133, 202, 190);
+}
+#lochead
+{
+    position: relative;
+    bottom: 50px;
+    right: 30px;
+    font-family: Arial;
+}
+#lochead:hover
+{
+    color: black;
+    transition: 0.7s;
+    cursor: cell;
+}
+#lochead:active
+{
+    color: rgb(200, 200, 200);
+    transition: 0.2s;
+    cursor: progress;
+}
+#our-location
+{
+    width: 210px;
+    position: relative;
+    left: 15px;
+    bottom: 47px;
+}
+#our-location:hover
+{
+    color: black;
+    cursor: pointer;
+}
+#our-location:active
+{
+    color: rgb(210, 210, 210);
+    cursor: grab;
+}
+#f-name
+{
+    width: 280px;
+    height: 40px;
+    border: 1px solid rgb(230, 225, 225);
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#f-name:hover
+{
+    border: 3px solid rgb(14, 130, 117);
+    background-color: rgb(235, 235, 235);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#f-email
+{
+    width: 280px;
+    height: 40px;
+    border: 1px solid rgb(230, 225, 225);
+    margin-top: 30px;
+}
+#f-email:hover
+{
+    border: 3px solid rgb(14, 130, 117);
+    background-color: rgb(235, 235, 235);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#f-subj
+{
+    width: 590px;
+    height: 40px;
+    border: 1px solid rgb(230, 225, 225);
+    margin-top: 30px;   
+}
+#f-subj:hover
+{
+    border: 3px solid rgb(14, 130, 117);
+    background-color: rgb(235, 235, 235);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#textarea
+{
+    margin-top: 30px;
+    border: 1px solid rgb(230, 225, 225);
+}
+#textarea:hover
+{
+    border: 3px solid rgb(14, 130, 117);
+    background-color: rgb(235, 235, 235);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#formbtn
+{
+    margin-top: 30px;
+    width: 180px;
+    height: 45px;
+    border: none;
+    background-color:rgb(13, 88, 71);
+    color: white;
+    border-radius: 25px;
+}
+#formbtn:hover
+{
+    cursor: pointer;
+}
+#formbtn:active
+{
+    color: black;
+    background-color: rgb(214, 210, 210);
+    cursor: grab;
+    transition: 0.5s;
+}
+/*********** Contact Div Ends ***********/
+
+/*********** footer Div start ***********/
+.footer
+{
+    width: 1200px;
+    height: 420px;
+    background-color: rgb(20, 108, 87);
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+#fhead
+{
+    font-family: calibri;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-right: 950px;
+}
+#fhead:hover
+{
+    color: black;
+    transition: 0.3s;
+    cursor: col-resize;
+}
+#fhead:active
+{
+    color: rgb(92, 91, 91);
+    transition: 0.1s;
+}
+#fcont
+{
+    width: 420px;
+    margin-top: 10px;
+    margin-right: 730px;
+}
+.foticon-1
+{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background: transparent;
+    margin-left: 80px;
+    margin-top: 40px;
+    border: 1px solid rgb(215, 211, 211);
+    float: left;
+}
+.foticon-1:hover
+{
+    background-color: rgb(2, 72, 64);
+}
+#fot-i1
+{
+    margin-top: 12px;
+}
+#fot-i1:hover
+{
+    color: aqua;
+    cursor: progress;
+    transition: 0.5s;
+}
+#fot-i1:active
+{
+    color: red;
+    transition: 0.1s;
+}
+.foticon-2
+{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background: transparent;
+    margin-left: 15px;
+    margin-top: 40px;
+    border: 1px solid rgb(215, 211, 211);
+    float: left;
+}
+.foticon-2:hover
+{
+    background-color: rgb(2, 72, 64);
+}
+#fot-i2
+{
+    margin-top: 12px;
+}
+#fot-i2:hover
+{
+    color: rgb(49, 49, 220);
+    cursor: progress;
+    transition: 0.5s;
+}
+#fot-i2:active
+{
+    color: red;
+    transition: 0.1s;
+}
+.foticon-3
+{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background: transparent;
+    position:relative;
+    left: 15px;
+    margin-top: 40px;
+    border: 1px solid rgb(215, 211, 211);
+    float: left;
+}
+.foticon-3:hover
+{
+    background-color: rgb(2, 72, 64);
+}
+#fot-i3
+{
+    margin-top: 12px;
+}
+#fot-i3:hover
+{
+    color: rgb(186, 56, 198);
+    cursor: progress;
+    transition: 0.5s;
+}
+#fot-i3:active
+{
+    color: red;
+    transition: 0.1s;
+}
+.foticon-4
+{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background: transparent;
+    position:relative;
+    left: 30px;
+    margin-top: 40px;
+    border: 1px solid rgb(215, 211, 211);
+    float: left;
+}
+.foticon-4:hover
+{
+    background-color: rgb(2, 72, 64);
+}
+#fot-i4
+{
+    margin-top: 12px;
+}
+#fot-i4:hover
+{
+    color: rgb(21, 89, 198);
+    cursor: progress;
+    transition: 0.5s;
+}
+#fot-i4:active
+{
+    color: red;
+    transition: 0.1s;
+}
+.footer-section 
+{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 70px;
+    right: 10px;
+    text-align: left;
+}
+.footer-section h3
+{
+    font-family: Arial;
+    position: relative;
+    bottom: 20px;
+   
+}
+.footer-section h3:hover
+{
+    color: black;
+    transition: 0.5s;
+    cursor: all-scroll;
+}
+.footer-section h3:active
+{
+    color: red;
+    transition: 0.1s;
+    cursor: grab;
+}
+.footer-section ul li
+{
+    list-style: none;
+    text-decoration: none;
+}
+.footer-services 
+{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 270px;
+    left: 190px;
+    text-align: left;
+}
+.footer-services h3
+{
+    font-family: Arial;
+    position: relative;
+    bottom: 20px;
+   
+}
+.footer-services h3:hover
+{
+    color: black;
+    transition: 0.5s;
+    cursor: all-scroll;
+}
+.footer-services h3:active
+{
+    color: red;
+    transition: 0.1s;
+    cursor: grab;
+}
+.footer-services ul li
+{
+    list-style: none;
+    text-decoration: none;
+}
+.footer-contact 
+{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    bottom: 470px;
+    left: 440px;
+    text-align: left;
+}
+.footer-contact h3
+{
+    font-family: Arial;
+    position: relative;
+    bottom: 20px;
+   
+}
+.footer-contact h3:hover
+{
+    color: black;
+    transition: 0.5s;
+    cursor: all-scroll;
+}
+.footer-contact h3:active
+{
+    color: red;
+    transition: 0.1s;
+    cursor: grab;
+}
+.footer-contact ul li
+{
+    list-style: none;
+    text-decoration: none;
+}
+#last
+{
+    position: relative;
+    bottom: 400px;
+    width: 300px;
+}
+/*********** footer Div Ends ***********/
